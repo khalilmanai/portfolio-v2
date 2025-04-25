@@ -20,7 +20,7 @@ export function AboutSection() {
           className="mb-12 text-center"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
-          <div className="h-1 w-20 bg-primary mx-auto rounded-full"></div>
+          <div className="h-1 w-20 bg-primary mx-auto rounded-full" />
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -32,7 +32,7 @@ export function AboutSection() {
             className="relative"
           >
             <div className="relative mx-auto max-w-sm md:max-w-md aspect-square rounded-2xl overflow-hidden">
-              <div className="absolute inset-0 bg-primary/10 rounded-2xl transform rotate-6 border border-primary/20"></div>
+              <div className="absolute inset-0 bg-primary/10 rounded-2xl transform rotate-6 border border-primary/20" />
               <Card className="relative z-10 h-full overflow-hidden">
                 <CardContent className="p-0 h-full">
                   <Image
@@ -56,15 +56,15 @@ export function AboutSection() {
             className="flex flex-col space-y-6"
           >
             <h3 className="text-2xl md:text-3xl font-semibold">
-              Hi there! I'm <span className="text-primary">Khalil Manai</span>
+              Hi there! I&apos;m <span className="text-primary">Khalil Manai</span>
             </h3>
 
             <p className="text-muted-foreground">
-              I'm a passionate Software Engineer from Tunisia, focused on crafting exceptional mobile and web applications. My expertise spans Flutter, React Native, and full-stack development using technologies like NestJS, Symfony, and Node.js.
+              I&apos;m a passionate Software Engineer from Tunisia, focused on crafting exceptional mobile and web applications. My expertise spans Flutter, React Native, and full-stack development using technologies like NestJS, Symfony, and Node.js.
             </p>
 
             <p className="text-muted-foreground">
-              I'm currently working on <strong>RoadGuard</strong> — an AI-powered road surveillance system using YOLO and OCR to detect traffic violations in real-time, with blockchain integration for secure record-keeping. I love building impactful tech that blends AI, real-time data, and smart city concepts.
+              I&apos;m currently working on <strong>RoadGuard</strong> — an AI-powered road surveillance system using YOLO and OCR to detect traffic violations in real-time, with blockchain integration for secure record-keeping. I love building impactful tech that blends AI, real-time data, and smart city concepts.
             </p>
 
             <p className="text-muted-foreground">

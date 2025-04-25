@@ -44,9 +44,7 @@ export function ContactSection() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    // In a real app, you would send this data to your server or a service like Formspree
     console.log(values);
-    // For demo purposes, we'll just show the success state
     form.reset();
     alert("Message sent successfully! This is a demo form.");
   }
@@ -93,9 +91,10 @@ export function ContactSection() {
           >
             <h3 className="text-2xl font-semibold">Contact Information</h3>
             <p className="text-muted-foreground">
-              I'm currently available for freelance work, full-time positions, and interesting collaborations.
-              If you have a project that needs help or just want to say hello, don't hesitate to reach out!
+              I&apos;m currently available for freelance work, full-time positions, and interesting collaborations.
+              If you have a project that needs help or just want to say hello, don&apos;t hesitate to reach out!
             </p>
+
 
             <div className="space-y-4 py-4">
               <div>
@@ -105,7 +104,7 @@ export function ContactSection() {
 
               <div>
                 <h4 className="text-base font-medium mb-1">Location</h4>
-                <p className="text-muted-foreground">Manouba,Tunisia</p>
+                <p className="text-muted-foreground">Manouba, Tunisia</p>
               </div>
             </div>
 
